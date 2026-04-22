@@ -15,8 +15,8 @@ int restar(int a, int b) {
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
 
 // Implementa la función multiplicar que reciba dos enteros y retorne su producto.
-int multiplicar(int a, int b) {
-    return a * b;
+int multiplicar(const int a, const int b) {
+    return a * b;  //Si declarás un parámetro como const int a, le estás prohibiendo a la función que modifique ese valor.
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
