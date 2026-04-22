@@ -16,7 +16,7 @@ int restar(int a, int b) {
 
 // Implementa la función multiplicar que reciba dos enteros y retorne su producto.
 int multiplicar(const int a, const int b) {
-    return a * b;
+    return a * b;  //Si declarás un parámetro como const int a, le estás prohibiendo a la función que modifique ese valor.
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
